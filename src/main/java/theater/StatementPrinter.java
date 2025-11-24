@@ -66,7 +66,15 @@ public class StatementPrinter {
         return invoice;
     }
 
+    public void setInvoice(Invoice invoice) {
+        this.invoice = invoice;
+    }
+
     public Map<String, Play> getPlays() {
         return plays;
+    }
+
+    public void setPlays(Map<String, Play> plays) {
+        this.plays = plays;
     }
 }
